@@ -1,6 +1,6 @@
 import gtts
 import PyPDF2
-
+# Читаем pdf и конвертируем в аудио
 file_name = 'test_ru.pdf'
 lang = 'ru'
 
@@ -14,4 +14,4 @@ t1.save('audio.mp3')
 print('[+] Audio file saved')
 
 
-# Перехватывает сообщения и прочитывает их
+
